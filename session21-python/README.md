@@ -806,3 +806,35 @@ Troubleshooting
 ```
 
 That is the actual objective of Session 21.
+
+---
+
+## Hands-on Verification & Troubleshooting Challenge
+
+### 1. Full Stack Deployment & Verification
+Verified end-to-end operational readiness across Docker Compose local development, Kubernetes production deployment, and Helm chart release:
+
+```bash
+docker compose ps
+curl -s http://localhost:8000/health
+helm status taskboard -n production
+```
+
+![Capstone Full Stack Deployment](assets/01-capstone-stack-deployment.png)
+
+### 2. Final Troubleshooting Challenge Resolution
+Diagnosed and resolved simulated production outages:
+
+1. **Database Secret Newline Bug**: `taskboard-backend` entered `CrashLoopBackOff` due to database authentication failure. Re-encoded secret using `echo -n` to strip trailing newline.
+2. **Missing Frontend Image**: `taskboard-frontend` entered `ImagePullBackOff` due to non-existent image tag. Updated deployment template to `:latest` release.
+3. **Restoration Verification**: Verified all pods transitioned into healthy `Running 1/1` status.
+
+```bash
+kubectl get pods -n production
+kubectl apply -f k8s/secret.yaml && kubectl rollout restart deploy/taskboard-backend -n production
+kubectl set image deploy/taskboard-frontend frontend=ghcr.io/tezivindh/frontend:latest -n production
+kubectl get pods -n production
+```
+
+![Troubleshooting Challenge Resolution](assets/02-capstone-troubleshooting-fix.png)
+

@@ -1,344 +1,61 @@
-# Kubernetes Troubleshooting
+# Session 14: Kubernetes Troubleshooting Homework
 
-The goal is to learn how to answer:
-
-> "My Kubernetes application is not working. How do I find out why?"
+Comprehensive guide and practical exercises diagnosing and resolving Kubernetes cluster and workload failures.
 
 ---
 
-## Topics
+## Task 1: Essential Troubleshooting Commands
 
-We will cover:
-
-* `kubectl get`
-* `kubectl describe`
-* `kubectl logs`
-* `kubectl exec`
-* `Events`
-* `CrashLoopBackOff`
-* `ImagePullBackOff`
-* `Pending Pods`
-* `Service Troubleshooting`
-* `DNS Troubleshooting`
-
----
-
-## Folder Structure
-
-```text
-01-kubectl-get
-02-kubectl-describe
-03-kubectl-logs
-04-kubectl-exec
-05-events
-06-crashloopbackoff
-07-imagepullbackoff
-08-pending-pod
-09-service-dns
-mini-project
-```
-
-Each folder contains a small practical example.
-
----
-
-## Troubleshooting Mindset
-
-When an application is not working, don't randomly run commands.
-
-Follow a process:
-
-```text
-1. Observe
-      │
-      ▼
-2. Identify the resource
-      │
-      ▼
-3. Check status
-      │
-      ▼
-4. Check details
-      │
-      ▼
-5. Check events
-      │
-      ▼
-6. Check logs
-      │
-      ▼
-7. Enter container if possible
-      │
-      ▼
-8. Test connectivity
-      │
-      ▼
-9. Find root cause
-      │
-      ▼
-10. Fix
-      │
-      ▼
-11. Verify
-```
-
----
-
-## The Five Commands
-
-### 1. `kubectl get`
-
-Use it for a quick view.
+Practiced key diagnostic CLI tools:
 
 ```bash
-kubectl get pods
-```
-
-**Question:**
-> "What is happening?"
-
----
-
-### 2. `kubectl describe`
-
-Use it for detailed information.
-
-```bash
+kubectl get pods -o wide
+kubectl top nodes
+kubectl top pods
+kubectl explain deployment.spec.strategy
 kubectl describe pod <pod-name>
-```
-
-**Question:**
-> "What details can explain the problem?"
-
----
-
-### 3. `kubectl logs`
-
-Use it to see application output.
-
-```bash
-kubectl logs <pod-name>
-```
-
-**Question:**
-> "What is the application saying?"
-
----
-
-### 4. `kubectl exec`
-
-Use it to run commands inside a running container.
-
-```bash
-kubectl exec -it <pod-name> -- sh
-```
-
-**Question:**
-> "What can I see from inside the container?"
-
----
-
-### 5. `Events`
-
-Use Events to understand what Kubernetes tried to do.
-
-```bash
-kubectl get events
-```
-
-or:
-
-```bash
-kubectl describe pod <pod-name>
-```
-
-**Question:**
-> "What did Kubernetes try, and what happened?"
-
----
-
-## Common Kubernetes Problems
-
-### CrashLoopBackOff
-
-```text
-Container starts
-      │
-      ▼
-Application crashes
-      │
-      ▼
-Container restarts
-      │
-      ▼
-Crash again
-      │
-      ▼
-CrashLoopBackOff
-```
-
-**Check:**
-
-```bash
-kubectl logs <pod-name>
 kubectl logs <pod-name> --previous
-kubectl describe pod <pod-name>
+kubectl exec -it <pod-name> -- /bin/sh
+kubectl get events --sort-by=.lastTimestamp
 ```
+
+![Troubleshooting Commands](assets/01-troubleshooting-commands.png)
+
+- **What I understood**:
+  - `kubectl describe` reveals the `Events` section at the bottom, which is the fastest way to diagnose scheduling failures or image pull errors.
+  - `kubectl logs --previous` is critical for diagnosing pods that crash immediately upon starting, as standard `kubectl logs` only inspects the active running container.
+  - `kubectl top` highlights CPU and memory starvation causing OOMKilled events.
 
 ---
 
-### ImagePullBackOff
+## Task 2: Troubleshooting Common Workload Failures
 
-```text
-Kubernetes
-    │
-    ▼
-Needs image
-    │
-    ▼
-Pull fails
-    │
-    ▼
-Retries
-    │
-    ▼
-ImagePullBackOff
-```
+### 1. CrashLoopBackOff
+- **Problem**: Container starts, exits immediately with non-zero exit code, and Kubernetes enters exponential backoff restart cycles.
+- **Investigation**: Inspected crash logs using `kubectl logs <pod> --previous`.
+- **Root Cause**: Missing database environment variable host `db.internal`.
+- **Solution**: Injected the missing ConfigMap reference containing the correct database hostname.
+- **Verification**: Pod restarted into `Running 1/1` with zero restarts.
 
-**Check:**
+### 2. ImagePullBackOff / ErrImagePull
+- **Problem**: Pod remains stuck in `ImagePullBackOff`.
+- **Investigation**: `kubectl describe pod` revealed event: `Failed to pull image "myrepo/backend:v9.9.9": not found`.
+- **Root Cause**: Invalid image tag specified in deployment template.
+- **Solution**: Patched the image tag to `:latest`.
 
-```bash
-kubectl describe pod <pod-name>
-```
+![CrashLoopBackOff and ImagePullBackOff Investigation](assets/02-crashloop-imagepull.png)
 
-Look at Events.
+### 3. Service Connectivity & Empty Endpoints
+- **Problem**: Requests to `http://payment-service:8080` returned connection refused or timed out.
+- **Investigation**: Checked `kubectl get endpoints payment-service` which showed `<none>`.
+- **Root Cause**: The service selector specified `app: payment` while the deployment pod template labels had `app: payment-api`.
+- **Solution**: Updated the service selector to match pod labels (`app: payment-api`).
+- **Verification**: Endpoints immediately populated with pod IPs and curl returned HTTP 200.
 
----
-
-### Pending Pod
-
-```text
-Pod created
-    │
-    ▼
-Scheduler tries to find a node
-    │
-    ▼
-Cannot schedule
-    │
-    ▼
-Pending
-```
-
-**Check:**
-
-```bash
-kubectl describe pod <pod-name>
-```
-
-Look at Events.
+![Service Endpoints Disconnect Resolution](assets/03-service-endpoint-fix.png)
 
 ---
 
-### Service Problem
+## Task 3: Mini Project Implementation
 
-**Check:**
-
-```bash
-kubectl get pods
-kubectl get service
-kubectl describe service <service-name>
-kubectl get endpoints <service-name>
-```
-
-Most importantly:
-
-```text
-Pod labels
-    │
-    ▼
-Service selector
-    │
-    ▼
-Endpoints
-```
-
-They need to match correctly.
-
----
-
-### DNS Problem
-
-Test from inside a Pod:
-
-```bash
-nslookup <service-name>
-```
-
-Check CoreDNS:
-
-```bash
-kubectl get pods -n kube-system
-```
-
-Check CoreDNS logs:
-
-```bash
-kubectl logs -n kube-system -l k8s-app=kube-dns
-```
-
----
-
-## Golden Troubleshooting Flow
-
-Students should remember this:
-
-```text
-              PROBLEM
-                 │
-                 ▼
-            kubectl get
-                 │
-                 ▼
-           What is the status?
-                 │
-                 ▼
-         kubectl describe
-                 │
-                 ▼
-              Events
-                 │
-                 ▼
-           kubectl logs
-                 │
-                 ▼
-           kubectl exec
-                 │
-                 ▼
-           Test connectivity
-                 │
-                 ▼
-            Find root cause
-                 │
-                 ▼
-                FIX
-                 │
-                 ▼
-              VERIFY
-```
-
----
-
-## Learning
-
-* Check Kubernetes resource status
-* Inspect detailed resource information
-* Read application logs
-* Execute commands inside containers
-* Understand Kubernetes Events
-* Troubleshoot `CrashLoopBackOff`
-* Troubleshoot `ImagePullBackOff`
-* Troubleshoot `Pending` Pods
-* Troubleshoot Services
-* Test Kubernetes DNS
-* Identify root causes instead of guessing
+Executed the full end-to-end troubleshooting scenario in `mini-project/` resolving multi-pod networking and configuration bugs.
