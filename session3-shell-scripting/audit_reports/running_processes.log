@@ -1,0 +1,349 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.0  20836 15320 ?        Ss   19:23   0:02 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    19:23   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    19:23   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/R-rcu_gp]
+root           5  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/R-sync_wq]
+root           6  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/R-kvfree_rcu_reclaim]
+root           7  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/R-slub_flushwq]
+root           8  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/R-netns]
+root          11  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/0:0H-events_highpri]
+root          13  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/R-mm_percpu_wq]
+root          14  0.0  0.0      0     0 ?        S    19:23   0:00 [ksoftirqd/0]
+root          16  0.0  0.0      0     0 ?        I    19:23   0:02 [rcu_preempt]
+root          17  0.0  0.0      0     0 ?        S    19:23   0:00 [rcub/0]
+root          18  0.0  0.0      0     0 ?        S    19:23   0:00 [rcu_exp_par_gp_kthread_worker/0]
+root          19  0.0  0.0      0     0 ?        S    19:23   0:00 [rcu_exp_gp_kthread_worker]
+root          20  0.0  0.0      0     0 ?        S    19:23   0:00 [migration/0]
+root          21  0.0  0.0      0     0 ?        S    19:23   0:00 [idle_inject/0]
+root          22  0.0  0.0      0     0 ?        S    19:23   0:00 [cpuhp/0]
+root          23  0.0  0.0      0     0 ?        S    19:23   0:00 [cpuhp/1]
+root          24  0.0  0.0      0     0 ?        S    19:23   0:00 [idle_inject/1]
+root          25  0.0  0.0      0     0 ?        S    19:23   0:00 [migration/1]
+root          26  0.0  0.0      0     0 ?        S    19:23   0:00 [ksoftirqd/1]
+root          28  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/1:0H-events_highpri]
+root          29  0.0  0.0      0     0 ?        S    19:23   0:00 [cpuhp/2]
+root          30  0.0  0.0      0     0 ?        S    19:23   0:00 [idle_inject/2]
+root          31  0.0  0.0      0     0 ?        S    19:23   0:00 [migration/2]
+root          32  0.0  0.0      0     0 ?        S    19:23   0:00 [ksoftirqd/2]
+root          34  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/2:0H-events_highpri]
+root          35  0.0  0.0      0     0 ?        S    19:23   0:00 [cpuhp/3]
+root          36  0.0  0.0      0     0 ?        S    19:23   0:00 [idle_inject/3]
+root          37  0.0  0.0      0     0 ?        S    19:23   0:00 [migration/3]
+root          38  0.0  0.0      0     0 ?        S    19:23   0:00 [ksoftirqd/3]
+root          40  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/3:0H-events_highpri]
+root          41  0.0  0.0      0     0 ?        S    19:23   0:00 [cpuhp/4]
+root          42  0.0  0.0      0     0 ?        S    19:23   0:00 [idle_inject/4]
+root          43  0.0  0.0      0     0 ?        S    19:23   0:00 [migration/4]
+root          44  0.0  0.0      0     0 ?        S    19:23   0:00 [ksoftirqd/4]
+root          46  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/4:0H-events_highpri]
+root          47  0.0  0.0      0     0 ?        S    19:23   0:00 [cpuhp/5]
+root          48  0.0  0.0      0     0 ?        S    19:23   0:00 [idle_inject/5]
+root          49  0.0  0.0      0     0 ?        S    19:23   0:00 [migration/5]
+root          50  0.0  0.0      0     0 ?        S    19:23   0:00 [ksoftirqd/5]
+root          52  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/5:0H-events_highpri]
+root          53  0.0  0.0      0     0 ?        S    19:23   0:00 [cpuhp/6]
+root          54  0.0  0.0      0     0 ?        S    19:23   0:00 [idle_inject/6]
+root          55  0.0  0.0      0     0 ?        S    19:23   0:00 [migration/6]
+root          56  0.0  0.0      0     0 ?        S    19:23   0:00 [ksoftirqd/6]
+root          58  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/6:0H-events_highpri]
+root          59  0.0  0.0      0     0 ?        S    19:23   0:00 [cpuhp/7]
+root          60  0.0  0.0      0     0 ?        S    19:23   0:00 [idle_inject/7]
+root          61  0.0  0.0      0     0 ?        S    19:23   0:00 [migration/7]
+root          62  0.0  0.0      0     0 ?        S    19:23   0:01 [ksoftirqd/7]
+root          63  0.1  0.0      0     0 ?        I    19:23   0:06 [kworker/7:0-i915-unordered]
+root          64  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/7:0H-events_highpri]
+root          65  0.0  0.0      0     0 ?        S    19:23   0:00 [cpuhp/8]
+root          66  0.0  0.0      0     0 ?        S    19:23   0:00 [idle_inject/8]
+root          67  0.0  0.0      0     0 ?        S    19:23   0:00 [migration/8]
+root          68  0.0  0.0      0     0 ?        S    19:23   0:00 [ksoftirqd/8]
+root          70  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/8:0H-events_highpri]
+root          71  0.0  0.0      0     0 ?        S    19:23   0:00 [cpuhp/9]
+root          72  0.0  0.0      0     0 ?        S    19:23   0:00 [idle_inject/9]
+root          73  0.0  0.0      0     0 ?        S    19:23   0:00 [migration/9]
+root          74  0.0  0.0      0     0 ?        S    19:23   0:00 [ksoftirqd/9]
+root          75  0.0  0.0      0     0 ?        I    19:23   0:00 [kworker/9:0-events]
+root          76  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/9:0H-events_highpri]
+root          77  0.0  0.0      0     0 ?        S    19:23   0:00 [cpuhp/10]
+root          78  0.0  0.0      0     0 ?        S    19:23   0:00 [idle_inject/10]
+root          79  0.0  0.0      0     0 ?        S    19:23   0:00 [migration/10]
+root          80  0.0  0.0      0     0 ?        S    19:23   0:00 [ksoftirqd/10]
+root          82  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/10:0H-events_highpri]
+root          83  0.0  0.0      0     0 ?        S    19:23   0:00 [cpuhp/11]
+root          84  0.0  0.0      0     0 ?        S    19:23   0:00 [idle_inject/11]
+root          85  0.0  0.0      0     0 ?        S    19:23   0:00 [migration/11]
+root          86  0.0  0.0      0     0 ?        S    19:23   0:00 [ksoftirqd/11]
+root          88  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/11:0H-events_highpri]
+root          89  0.0  0.0      0     0 ?        S    19:23   0:00 [kdevtmpfs]
+root          90  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/R-inet_frag_wq]
+root          91  0.0  0.0      0     0 ?        I    19:23   0:00 [rcu_tasks_kthread]
+root          92  0.0  0.0      0     0 ?        I    19:23   0:00 [rcu_tasks_rude_kthread]
+root          93  0.0  0.0      0     0 ?        I    19:23   0:00 [rcu_tasks_trace_kthread]
+root          94  0.0  0.0      0     0 ?        S    19:23   0:00 [kauditd]
+root          95  0.0  0.0      0     0 ?        S    19:23   0:00 [khungtaskd]
+root          97  0.0  0.0      0     0 ?        S    19:23   0:00 [oom_reaper]
+root          98  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/R-writeback]
+root          99  0.0  0.0      0     0 ?        S    19:23   0:00 [kcompactd0]
+root         100  0.0  0.0      0     0 ?        SN   19:23   0:00 [ksmd]
+root         102  0.0  0.0      0     0 ?        SN   19:23   0:00 [khugepaged]
+root         103  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/R-kblockd]
+root         104  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/R-blkcg_punt_bio]
+root         105  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/R-kintegrityd]
+root         106  0.0  0.0      0     0 ?        S    19:23   0:00 [irq/9-acpi]
+root         108  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/R-tpm_dev_wq]
+root         109  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/R-ata_sff]
+root         110  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/R-edac-poller]
+root         111  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/R-devfreq_wq]
+root         112  0.0  0.0      0     0 ?        S    19:23   0:00 [watchdogd]
+root         113  0.0  0.0      0     0 ?        I    19:23   0:00 [kworker/1:1-i915-unordered]
+root         114  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/R-quota_events_unbound]
+root         115  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/6:1H-i915_cleanup]
+root         117  0.0  0.0      0     0 ?        S    19:23   0:01 [kswapd0]
+root         118  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/R-kthrotld]
+root         119  0.0  0.0      0     0 ?        S    19:23   0:00 [irq/123-pciehp]
+root         120  0.0  0.0      0     0 ?        S    19:23   0:00 [irq/125-pciehp]
+root         121  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/R-acpi_thermal_pm]
+root         123  0.0  0.0      0     0 ?        S    19:23   0:00 [hwrng]
+root         124  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/R-mld]
+root         125  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/8:1H-i915_cleanup]
+root         126  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/R-ipv6_addrconf]
+root         127  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/R-kstrp]
+root         129  0.0  0.0      0     0 ?        I    19:23   0:00 [kworker/5:1-events]
+root         139  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/R-zswap-shrink]
+root         145  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/0:1H-kblockd]
+root         146  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/11:1H-i915_cleanup]
+root         175  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/9:1H-i915_cleanup]
+root         177  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/7:1H-i915_cleanup]
+root         179  0.0  0.0      0     0 ?        S    19:23   0:00 [nv_queue]
+root         180  0.0  0.0      0     0 ?        S    19:23   0:00 [nv_mem_pool_scrubber_queue]
+root         181  0.0  0.0      0     0 ?        S    19:23   0:00 [nv_mem_pool_scrubber_queue]
+root         182  0.0  0.0      0     0 ?        S    19:23   0:00 [nv_mem_pool_scrubber_queue]
+root         183  0.0  0.0      0     0 ?        S    19:23   0:00 [nv_queue]
+root         184  0.0  0.0      0     0 ?        S    19:23   0:00 [nv_open_q]
+root         187  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/10:1H-i915_cleanup]
+root         204  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/2:1H-kblockd]
+root         205  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/3:1H-kblockd]
+root         206  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/4:1H-i915_cleanup]
+root         207  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/5:1H-i915_cleanup]
+root         209  0.0  0.0      0     0 ?        S    19:23   0:00 [nvidia-modeset/kthread_q]
+root         210  0.0  0.0      0     0 ?        S    19:23   0:00 [nvidia-modeset/deferred_close_kthread_q]
+root         211  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/1:1H-i915_cleanup]
+root         212  0.0  0.0      0     0 ?        S    19:23   0:00 [UVM global queue]
+root         213  0.0  0.0      0     0 ?        S    19:23   0:00 [UVM deferred release queue]
+root         214  0.0  0.0      0     0 ?        S    19:23   0:00 [UVM Tools Event Queue]
+root         217  0.0  0.0      0     0 ?        S    19:23   0:00 [irq/144-nvidia]
+root         219  0.0  0.0      0     0 ?        S    19:23   0:00 [nv_queue]
+root         254  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/R-nvme-wq]
+root         255  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/R-nvme-reset-wq]
+root         256  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/R-nvme-delete-wq]
+root         257  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/R-nvme-auth-wq]
+root         259  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/R-ttm]
+root         260  0.0  0.0      0     0 ?        S    19:23   0:00 [card2-crtc0]
+root         261  0.0  0.0      0     0 ?        S    19:23   0:00 [card2-crtc1]
+root         262  0.0  0.0      0     0 ?        S    19:23   0:00 [card2-crtc2]
+root         263  0.0  0.0      0     0 ?        S    19:23   0:00 [card2-crtc3]
+root         324  0.0  0.0      0     0 ?        S    19:23   0:00 [jbd2/nvme0n1p4-8]
+root         325  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/R-ext4-rsv-conversion]
+root         397  0.0  0.1  36748 27384 ?        Ss   19:23   0:00 /usr/lib/systemd/systemd-journald
+root         412  0.0  0.0   9108  4620 ?        Ss   19:23   0:00 /usr/lib/systemd/systemd-userdbd
+root         436  0.0  0.0      0     0 ?        S    19:23   0:00 [psimon]
+systemd+     439  0.0  0.0  24792 15552 ?        Ss   19:23   0:00 /usr/lib/systemd/systemd-resolved
+systemd+     440  0.0  0.0  85192  7124 ?        Ssl  19:23   0:00 /usr/lib/systemd/systemd-timesyncd
+root         446  0.0  0.0  45200 15516 ?        Ss   19:23   0:00 /usr/lib/systemd/systemd-udevd
+root         448  0.0  0.0      0     0 ?        S    19:23   0:00 [psimon]
+systemd+     450  0.0  0.0  19016 13084 ?        Ss   19:23   0:00 /usr/lib/systemd/systemd-networkd
+root         500  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/R-cfg80211]
+root         519  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/R-asus_wireless_workqueue]
+root         528  0.4  0.0      0     0 ?        S    19:23   0:24 [irq/162-ELAN1203:00]
+root         560  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/R-led_workqueue]
+root         566  0.0  0.0      0     0 ?        I<   19:23   0:00 [kworker/R-USBC000:00-con1]
+root         581  0.0  0.0      0     0 ?        S    19:23   0:02 [napi/phy0-0]
+root         582  0.0  0.0      0     0 ?        S    19:23   0:00 [napi/phy0-0]
+root         583  0.0  0.0      0     0 ?        S    19:23   0:02 [napi/phy0-0]
+root         585  0.0  0.0      0     0 ?        I    19:23   0:00 [kworker/2:2-inode_switch_wbs]
+dbus         612  0.0  0.0   8176  4424 ?        Ss   19:23   0:00 /usr/bin/dbus-broker-launch --scope system --audit
+dbus         613  0.0  0.0   7232  5316 ?        S    19:23   0:00 dbus-broker --log 10 --controller 9 --machine-id f9a86127b0634afdb4117875ff41e725 --max-bytes 536870912 --max-fds 4096 --max-matches 131072 --audit
+root         614  0.0  0.1 346684 28444 ?        Ssl  19:23   0:02 /usr/bin/NetworkManager --no-daemon
+root         615  0.0  0.0  11424  6644 ?        Ss   19:23   0:00 /usr/lib/bluetooth/bluetoothd
+root         616  0.0  0.0 308756  9836 ?        Ssl  19:23   0:00 /usr/lib/boltd
+root         620  0.0  0.0  18560  3992 ?        Ss   19:23   0:00 /usr/lib/iwd/iwd
+root         622  0.1  0.0 306744  9032 ?        Ssl  19:23   0:07 /usr/bin/nvidia-powerd
+root         625  0.0  0.0 308380  9536 ?        Ssl  19:23   0:00 /usr/lib/switcheroo-control
+root         626  0.0  0.0  10504  8140 ?        Ss   19:23   0:00 /usr/lib/systemd/systemd-logind
+polkitd      650  0.0  0.0 386944 14264 ?        Ssl  19:23   0:01 /usr/lib/polkit-1/polkitd --no-debug --log-level=notice
+root         757  0.0  0.0  12944  7720 ?        Ss   19:23   0:00 sshd: /usr/bin/sshd -D [listener] 0 of 10-100 startups
+root         772  0.0  0.1 162004 25052 ?        Ssl  19:23   0:00 /usr/bin/sddm
+root         774  0.0  0.7 26147588 116788 tty2  Ssl+ 19:23   0:01 /usr/lib/Xorg -nolisten tcp -background none -seat seat0 vt2 -auth /run/sddm/xauth_yiUGyl -noreset -displayfd 16
+root         802  0.0  0.0      0     0 ?        S    19:23   0:00 [nvidia-drm/timeline-16]
+root         810  0.0  0.0      0     0 ?        S    19:23   0:01 [mt76-tx phy0]
+root         813  0.0  0.0  21068 13680 ?        Ss   19:23   0:00 /usr/bin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root         818  0.0  0.0      0     0 ?        S    19:23   0:00 [psimon]
+root         852  0.0  0.1  91580 25144 ?        S    19:23   0:00 /usr/lib/sddm/sddm-helper --socket /tmp/sddm-auth-16bcd427-58bd-43ab-b74d-3d15d95b461f --id 1 --start /usr/lib/plasma-dbus-run-session-if-needed /usr/bin/startplasma-wayland --user tezivindh
+tezivin+     858  0.0  0.0  19136 13156 ?        Ss   19:23   0:01 /usr/lib/systemd/systemd --user
+tezivin+     860  0.0  0.0  19512  3748 ?        S    19:23   0:00 (sd-pam)
+tezivin+     870  0.0  0.2 234864 38472 tty1     Ssl+ 19:23   0:00 /usr/bin/startplasma-wayland
+tezivin+     929  0.0  0.0   7716  3936 ?        Ss   19:24   0:00 /usr/bin/dbus-broker-launch --scope user
+tezivin+     930  0.0  0.0   6860  5028 ?        S    19:24   0:03 dbus-broker --log 11 --controller 10 --machine-id f9a86127b0634afdb4117875ff41e725 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+tezivin+     938  0.0  0.1  47716 27904 ?        Ss   19:24   0:00 /usr/bin/python3 /home/tezivindh/.local/share/pearos-settings/screentime-collector.py
+tezivin+     940  0.0  0.1 160588 17944 ?        Ssl  19:24   0:00 /usr/bin/kwin_wayland_wrapper --xwayland
+tezivin+     946  0.0  0.2 268678772 37688 ?     SNsl 19:24   0:00 /usr/lib/kf6/baloo_file
+tezivin+     947  6.2  2.0 2049164 334200 ?      Sl   19:24   5:40 /usr/bin/kwin_wayland --wayland-fd 7 --socket wayland-0 --xwayland-fd 8 --xwayland-fd 9 --xwayland-display :1 --xwayland-xauthority /run/user/1001/xauth_IjRwdA --xwayland
+root         955  0.0  0.0 320960 14028 ?        Ssl  19:24   0:00 /usr/lib/upowerd
+root         965  0.0  0.0 479464 14936 ?        Ssl  19:24   0:00 /usr/lib/udisks2/udisksd
+root         973  0.0  0.0      0     0 ?        S    19:24   0:00 [nvidia-drm/timeline-1f]
+root         975  0.0  0.0      0     0 ?        S    19:24   0:00 [nvidia-drm/timeline-20]
+root         978  0.0  0.0      0     0 ?        S    19:24   0:00 [nvidia-drm/timeline-21]
+root         981  0.0  0.0      0     0 ?        S    19:24   0:00 [nvidia-drm/timeline-22]
+root         982  0.0  0.0      0     0 ?        S    19:24   0:00 [nvidia-drm/timeline-23]
+root         983  0.0  0.0      0     0 ?        S    19:24   0:00 [nvidia-drm/timeline-24]
+root         984  0.0  0.0      0     0 ?        S    19:24   0:00 [nvidia-drm/timeline-25]
+root         985  0.0  0.0      0     0 ?        S    19:24   0:00 [nvidia-drm/timeline-26]
+root         986  0.0  0.0      0     0 ?        S    19:24   0:00 [nvidia-drm/timeline-27]
+tezivin+    1013  0.0  0.1 108532 16468 ?        S<sl 19:24   0:02 /usr/bin/pipewire
+tezivin+    1014  0.0  0.1 489568 25332 ?        S<sl 19:24   0:03 /usr/bin/wireplumber
+rtkit       1020  0.0  0.0  21104  3288 ?        SNsl 19:24   0:00 /usr/lib/rtkit-daemon
+root        1038  0.0  0.0      0     0 ?        S<   19:24   0:00 [krfcommd]
+tezivin+    1054  0.0  0.3 752456 51704 ?        Sl   19:24   0:00 /usr/bin/Xwayland :1 -auth /run/user/1001/xauth_IjRwdA -listenfd 8 -listenfd 9 -displayfd 136 -wm 145 -rootless
+tezivin+    1068  0.0  0.0 380144  7616 ?        Ssl  19:24   0:00 /usr/lib/at-spi-bus-launcher
+tezivin+    1081  0.0  0.0   7588  3828 ?        S    19:24   0:00 /usr/bin/dbus-broker-launch --config-file=/usr/share/defaults/at-spi2/accessibility.conf --scope user
+tezivin+    1085  0.0  0.0   4848  2980 ?        S    19:24   0:00 dbus-broker --log 10 --controller 9 --machine-id f9a86127b0634afdb4117875ff41e725 --max-bytes 100000000000000 --max-fds 6400000 --max-matches 5000000000
+tezivin+    1099  0.0  0.5 1177000 89472 ?       Ssl  19:24   0:01 /usr/bin/kded6
+tezivin+    1100  0.0  0.3 323168 50360 ?        Ssl  19:24   0:00 /usr/bin/ksmserver
+tezivin+    1106  2.9  4.8 3630852 779784 ?      Ssl  19:24   2:38 /usr/bin/plasmashell --no-respawn
+tezivin+    1107  0.0  0.0 167988  7416 ?        Ssl  19:24   0:00 /usr/lib/at-spi2-registryd --use-gnome-session
+tezivin+    1118  0.0  0.0 165668  6544 ?        Ssl  19:24   0:00 /usr/lib/dconf-service
+tezivin+    1134  0.0  0.1 191324 20632 ?        S<sl 19:24   0:02 /usr/bin/pipewire-pulse
+tezivin+    1141  0.0  0.2 666728 45816 ?        Ssl  19:24   0:00 /usr/lib/kactivitymanagerd
+tezivin+    1142  0.0  0.1 239828 27128 ?        Ssl  19:24   0:00 /usr/bin/gmenudbusmenuproxy
+tezivin+    1143  0.0  0.3 346208 59240 ?        Ssl  19:24   0:00 /usr/bin/kaccess
+tezivin+    1144  0.0  2.1 1537896 351636 ?      Ssl  19:24   0:01 /usr/lib/polkit-kde-authentication-agent-1
+tezivin+    1145  0.4  0.4 920136 65076 ?        Ssl  19:24   0:23 /usr/lib/org_kde_powerdevil
+tezivin+    1146  0.0  0.1 237104 26212 ?        Ssl  19:24   0:00 /usr/bin/xembedsniproxy
+tezivin+    1178  0.0  0.0   8924  5036 ?        S    19:24   0:00 /usr/bin/xsettingsd
+tezivin+    1196  0.1  0.2 187936 34908 ?        Ssl  19:24   0:06 /usr/bin/ksystemstats
+tezivin+    1237  0.0  0.5 884668 92356 ?        Ssl  19:24   0:01 /usr/bin/kdeconnectd
+tezivin+    1282  0.0  0.4 423732 70192 ?        Ssl  19:24   0:02 /usr/bin/pearos-notch
+tezivin+    1295  0.0  0.1 625088 19216 ?        Ssl  19:24   0:02 /usr/lib/xdg-desktop-portal
+tezivin+    1301  0.0  0.0 316160  8556 ?        Ssl  19:24   0:00 /usr/lib/geoclue-2.0/demos/agent
+tezivin+    1302  0.0  0.6 918876 101184 ?       Ssl  19:24   0:00 /usr/bin/kalendarac
+tezivin+    1324  0.0  0.0 307780  8676 ?        Ssl  19:24   0:00 /usr/lib/xdg-permission-store
+tezivin+    1331  0.0  0.0 686404  9048 ?        Ssl  19:24   0:01 /usr/lib/xdg-document-portal
+root        1344  0.0  0.0   3000  2208 ?        Ss   19:24   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1001/doc
+tezivin+    1348  0.0  0.1 533868 31668 ?        Ssl  19:24   0:00 /usr/lib/xdg-desktop-portal-gtk
+tezivin+    1356  0.0  0.0 331240 14680 ?        Ssl  19:24   0:00 /usr/lib/gvfsd
+tezivin+    1370  0.0  0.0 472480  7520 ?        Sl   19:24   0:00 /usr/lib/gvfsd-fuse /run/user/1001/gvfs -f
+tezivin+    1381  0.0  1.3 1479804 211916 ?      Ssl  19:24   0:01 /usr/lib/xdg-desktop-portal-kde
+tezivin+    1391  0.0  0.3 34493972 51960 ?      S    19:24   0:00 /usr/lib/qt6/QtWebEngineProcess --type=zygote --no-zygote-sandbox --application-name=plasmashell --webengine-schemes=qrc:sV --webengine-locales-path=/usr/share/qt6/translations/qtwebengine_locales --webengine-resources-path=/usr/share/qt6/resources --lang=en
+tezivin+    1392  0.0  0.3 34493968 52108 ?      S    19:24   0:00 /usr/lib/qt6/QtWebEngineProcess --type=zygote --application-name=plasmashell --webengine-schemes=qrc:sV --webengine-locales-path=/usr/share/qt6/translations/qtwebengine_locales --webengine-resources-path=/usr/share/qt6/resources --lang=en
+tezivin+    1394  0.0  0.1 34493992 17932 ?      S    19:24   0:00 /usr/lib/qt6/QtWebEngineProcess --type=zygote --application-name=plasmashell --webengine-schemes=qrc:sV --webengine-locales-path=/usr/share/qt6/translations/qtwebengine_locales --webengine-resources-path=/usr/share/qt6/resources --lang=en
+tezivin+    1435  0.0  0.0   8028  3840 ?        S    19:24   0:00 bash /usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/tools/gdbus_get_signal.sh session luisbocanegra.panel.colorizer.c3.w131 luisbocanegra.panel.colorizer.c3.w131 preset preset_changed
+tezivin+    1436  0.0  0.0   8028  3864 ?        S    19:24   0:00 bash /usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/tools/gdbus_get_signal.sh session luisbocanegra.panel.colorizer.c3.w131 luisbocanegra.panel.colorizer.c3.w131 preset property_changed
+tezivin+    1437  0.0  0.1  47648 28016 ?        S    19:24   0:00 /usr/bin/python3 /usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/tools/service.py 3 131
+tezivin+    1440  0.0  0.0 168620  6344 ?        Sl   19:24   0:00 gdbus monitor --session --dest luisbocanegra.panel.colorizer.c3.w131
+tezivin+    1441  0.0  0.0 168620  6160 ?        Sl   19:24   0:00 gdbus monitor --session --dest luisbocanegra.panel.colorizer.c3.w131
+tezivin+    1442  0.0  0.0   6044  2112 ?        S    19:24   0:00 tail -f /tmp/tmp.I3MGAVS3TH
+tezivin+    1443  0.0  0.0   6044  2112 ?        S    19:24   0:00 tail -f /tmp/tmp.7Y3Vg3Pa3V
+tezivin+    1444  0.0  0.0   8028  2200 ?        S    19:24   0:00 bash /usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/tools/gdbus_get_signal.sh session luisbocanegra.panel.colorizer.c3.w131 luisbocanegra.panel.colorizer.c3.w131 preset preset_changed
+tezivin+    1445  0.0  0.0   8028  2204 ?        S    19:24   0:00 bash /usr/share/plasma/plasmoids/luisbocanegra.panel.colorizer/contents/ui/tools/gdbus_get_signal.sh session luisbocanegra.panel.colorizer.c3.w131 luisbocanegra.panel.colorizer.c3.w131 preset property_changed
+tezivin+    1502  3.3  8.1 1284525656 1307956 ?  Sl   19:24   3:00 /usr/lib/qt6/QtWebEngineProcess --type=renderer --webengine-schemes=qrc:sV --webengine-locales-path=/usr/share/qt6/translations/qtwebengine_locales --webengine-resources-path=/usr/share/qt6/resources --disable-speech-api --touch-events=auto --disable-blink-features=EyeDropperAPI,WebOTP,DocumentPictureInPictureAPI --lang=en --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=3 --time-ticks-at-unix-epoch=-1788357199451518 --launch-time-ticks=20537704 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,18190021734057682998,6423110278586536570,262144 --enable-features=NetworkServiceInProcess2,TracingServiceInProcess --disable-features=BackgroundFetch,EyeDropper,InstalledApp,WebOTP,WebPayments,WebUSB,kSanitizeOriginalUrlDuringNavigation --variations-seed-version
+tezivin+    1549  0.0  0.5 1105860 93784 ?       Sl   19:24   0:00 /usr/lib/qt6/QtWebEngineProcess --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en --service-sandbox-type=none --use-gl=angle --application-name=plasmashell --webengine-schemes=qrc:sV --webengine-locales-path=/usr/share/qt6/translations/qtwebengine_locales --webengine-resources-path=/usr/share/qt6/resources --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,18190021734057682998,6423110278586536570,262144 --enable-features=NetworkServiceInProcess2,TracingServiceInProcess --disable-features=BackgroundFetch,EyeDropper,InstalledApp,WebOTP,WebPayments,WebUSB,kSanitizeOriginalUrlDuringNavigation --variations-seed-version
+tezivin+    2239  0.0  0.4 268855328 67500 ?     Ssl  19:24   0:00 /usr/lib/baloorunner
+tezivin+    2301  6.2  7.6 38728312 1235268 ?    Ssl  19:24   5:34 /usr/lib/seafari/firefox --name seafari --class seafari --profile /home/tezivindh/.mozilla/seafari-profile -no-remote
+tezivin+    2324  0.0  0.0 151844  3500 ?        Sl   19:24   0:00 /usr/lib/seafari/crashhelper 2301 9 /tmp/ 11
+tezivin+    2399  0.0  0.2 465268 32836 ?        S    19:24   0:00 /usr/lib/seafari/firefox-bin -contentproc -ipcHandle 0 -signalPipe 1 -initialChannelId {a2d4e1fd-ab81-42ad-bb8f-93f2480076c2} -parentPid 2301 -greomni /usr/lib/seafari/omni.ja -appomni /usr/lib/seafari/browser/omni.ja -appDir /usr/lib/seafari/browser 1 forkserver
+tezivin+    2414  0.0  0.0 169316  9072 ?        Ssl  19:24   0:00 /usr/lib/gvfsd-metadata
+tezivin+    2443  0.0  0.2 476628 44936 ?        Sl   19:24   0:00 /usr/lib/seafari/firefox-bin -contentproc -parentBuildID 20260727124451 -prefsHandle 0:44039 -prefMapHandle 1:294578 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {a8da33f2-c5a9-4899-bff9-a696c5a88103} -parentPid 2301 -crashHelperPid 2324 -crashHelper 5 -crashReporter 6 -appDir /usr/lib/seafari/browser 2 socket
+tezivin+    2464  0.0  0.8 2769224 136596 ?      Sl   19:24   0:01 /usr/lib/seafari/firefox-bin -contentproc -isForBrowser -prefsHandle 0:44157 -prefMapHandle 1:294578 -jsInitHandle 2:156236 -parentBuildID 20260727124451 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {05d57cba-b4bd-4fa5-9e3f-be02f6327a59} -parentPid 2301 -crashHelperPid 2324 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/seafari/omni.ja -appomni /usr/lib/seafari/browser/omni.ja -appDir /usr/lib/seafari/browser 3 tab
+tezivin+    2473  0.0  0.6 978876 102192 ?       Sl   19:24   0:01 /usr/lib/seafari/firefox-bin -contentproc -parentBuildID 20260727124451 -prefsHandle 0:44157 -prefMapHandle 1:294578 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {0bac01fc-9815-4fc3-91d2-f66e444e2646} -parentPid 2301 -crashHelperPid 2324 -crashHelper 5 -crashReporter 6 -appDir /usr/lib/seafari/browser 4 rdd
+tezivin+    2676  0.0  0.2 484356 44052 ?        Sl   19:24   0:00 /usr/lib/seafari/firefox-bin -contentproc -parentBuildID 20260727124451 -sandboxingKind 0 -prefsHandle 0:59781 -prefMapHandle 1:294578 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {4251f749-c801-4b45-bee5-c2e300918176} -parentPid 2301 -crashHelperPid 2324 -crashHelper 5 -crashReporter 6 -appDir /usr/lib/seafari/browser 7 utility
+tezivin+    4129  0.3  1.4 2952872 234260 ?      Sl   19:26   0:20 /usr/lib/seafari/firefox-bin -contentproc -isForBrowser -prefsHandle 0:51014 -prefMapHandle 1:294578 -jsInitHandle 2:156236 -parentBuildID 20260727124451 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {e6fe311e-af37-4f51-a606-40c7974fc89c} -parentPid 2301 -crashHelperPid 2324 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/seafari/omni.ja -appomni /usr/lib/seafari/browser/omni.ja -appDir /usr/lib/seafari/browser 9 tab
+tezivin+    7828  0.7  3.3 3413924 535872 ?      Sl   19:29   0:38 /usr/lib/seafari/firefox-bin -contentproc -isForBrowser -prefsHandle 0:51014 -prefMapHandle 1:294578 -jsInitHandle 2:156236 -parentBuildID 20260727124451 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {f672ca99-4dd5-4291-9340-f83b37cf5d47} -parentPid 2301 -crashHelperPid 2324 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/seafari/omni.ja -appomni /usr/lib/seafari/browser/omni.ja -appDir /usr/lib/seafari/browser 15 tab
+root        8044  0.0  0.0 308776  9840 ?        Ssl  19:30   0:00 /usr/lib/power-profiles-daemon
+root       25192  0.0  0.0      0     0 ?        I    19:48   0:00 [kworker/6:0-i915-unordered]
+root       28456  0.0  0.0      0     0 ?        I    19:52   0:00 [kworker/11:2-mm_percpu_wq]
+root       28548  0.0  0.0      0     0 ?        I    19:52   0:00 [kworker/7:1-i915-unordered]
+root       31683  0.0  0.0      0     0 ?        I<   19:56   0:00 [kworker/u49:2-hci0]
+root       32222  0.0  0.0      0     0 ?        S    20:16   0:00 [irq/176-mei_me]
+root       32224  0.0  0.0      0     0 ?        S    20:16   0:00 [nvidia]
+root       32266  0.6  0.0      0     0 ?        I<   20:16   0:14 [kworker/u49:3-i915_flip]
+root       41024  0.0  0.0      0     0 ?        I    20:26   0:00 [kworker/3:1-mm_percpu_wq]
+root       41276  0.0  0.0      0     0 ?        I    20:26   0:01 [kworker/u48:0-events_unbound]
+tezivin+   42614  0.1  1.2 2822348 197088 ?      Sl   20:27   0:01 /usr/lib/seafari/firefox-bin -contentproc -isForBrowser -prefsHandle 0:51173 -prefMapHandle 1:294578 -jsInitHandle 2:156236 -parentBuildID 20260727124451 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {dc1ba008-718e-4a29-94ff-8dd05d4fee6c} -parentPid 2301 -crashHelperPid 2324 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/seafari/omni.ja -appomni /usr/lib/seafari/browser/omni.ja -appDir /usr/lib/seafari/browser 25 tab
+tezivin+   42874  1.1  3.7 3430460 600868 ?      Sl   20:28   0:18 /usr/lib/seafari/firefox-bin -contentproc -isForBrowser -prefsHandle 0:51173 -prefMapHandle 1:294578 -jsInitHandle 2:156236 -parentBuildID 20260727124451 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {9f1443d4-5274-4860-afec-5bc3f85cb46d} -parentPid 2301 -crashHelperPid 2324 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/seafari/omni.ja -appomni /usr/lib/seafari/browser/omni.ja -appDir /usr/lib/seafari/browser 26 tab
+root       43045  0.1  0.0      0     0 ?        I    20:28   0:02 [kworker/4:0-events]
+tezivin+   43435  0.1  1.6 2940788 259560 ?      Sl   20:28   0:02 /usr/lib/seafari/firefox-bin -contentproc -isForBrowser -prefsHandle 0:51173 -prefMapHandle 1:294578 -jsInitHandle 2:156236 -parentBuildID 20260727124451 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {768d37f7-2675-43bc-9be4-a1b5c9d176c4} -parentPid 2301 -crashHelperPid 2324 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/seafari/omni.ja -appomni /usr/lib/seafari/browser/omni.ja -appDir /usr/lib/seafari/browser 29 tab
+root       44990  0.0  0.0      0     0 ?        I    20:30   0:00 [kworker/u48:1-kvfree_rcu_reclaim]
+tezivin+   47009  0.1  1.3 2907692 214684 ?      Sl   20:31   0:01 /usr/lib/seafari/firefox-bin -contentproc -isForBrowser -prefsHandle 0:51173 -prefMapHandle 1:294578 -jsInitHandle 2:156236 -parentBuildID 20260727124451 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5b67586c-9d66-4db9-a373-50de87ea3b4c} -parentPid 2301 -crashHelperPid 2324 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/seafari/omni.ja -appomni /usr/lib/seafari/browser/omni.ja -appDir /usr/lib/seafari/browser 30 tab
+tezivin+   47967  1.0  1.8 3023360 291968 ?      Sl   20:32   0:14 /usr/lib/seafari/firefox-bin -contentproc -isForBrowser -prefsHandle 0:51174 -prefMapHandle 1:294578 -jsInitHandle 2:156236 -parentBuildID 20260727124451 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {7721a290-b4bd-438f-8458-380a13fa4881} -parentPid 2301 -crashHelperPid 2324 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/seafari/omni.ja -appomni /usr/lib/seafari/browser/omni.ja -appDir /usr/lib/seafari/browser 31 tab
+root       50424  0.0  0.0      0     0 ?        I    20:34   0:00 [kworker/11:0-i915-unordered]
+root       50575  0.0  0.0      0     0 ?        I    20:34   0:00 [kworker/u48:5-events_unbound]
+root       51114  0.0  0.0      0     0 ?        I    20:35   0:01 [kworker/u48:9-kvfree_rcu_reclaim]
+root       51135  0.0  0.0      0     0 ?        I    20:35   0:00 [kworker/9:2-i915-unordered]
+tezivin+   51883  2.2  2.8 3325864 451992 ?      Sl   20:36   0:24 /usr/lib/seafari/firefox-bin -contentproc -isForBrowser -prefsHandle 0:51174 -prefMapHandle 1:294578 -jsInitHandle 2:156236 -parentBuildID 20260727124451 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {7804cb7d-3c4e-4aaa-9c20-d5d13b8ef5bd} -parentPid 2301 -crashHelperPid 2324 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/seafari/omni.ja -appomni /usr/lib/seafari/browser/omni.ja -appDir /usr/lib/seafari/browser 37 tab
+tezivin+   52003  3.3  3.2 3440528 515508 ?      Sl   20:36   0:36 /usr/lib/seafari/firefox-bin -contentproc -isForBrowser -prefsHandle 0:51174 -prefMapHandle 1:294578 -jsInitHandle 2:156236 -parentBuildID 20260727124451 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {cfa3f8b7-8c90-4c83-ba2a-974042489e67} -parentPid 2301 -crashHelperPid 2324 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/seafari/omni.ja -appomni /usr/lib/seafari/browser/omni.ja -appDir /usr/lib/seafari/browser 38 tab
+tezivin+   52357  0.6  1.9 1403408 319612 ?      Ssl  20:36   0:07 /usr/bin/nautilus --gapplication-service
+tezivin+   52368  0.6  0.3 887284 57264 ?        SNsl 20:36   0:07 /usr/lib/localsearch-3
+tezivin+   52369  0.0  0.1 436664 19456 ?        Ssl  20:36   0:00 /usr/lib/gvfs-udisks2-volume-monitor
+tezivin+   52381  0.0  0.0 552632 15464 ?        Sl   20:36   0:00 /usr/lib/gvfsd-trash --spawner :1.47 /org/gtk/gvfs/exec_spaw/0
+root       52405  0.0  0.0      0     0 ?        I    20:36   0:00 [kworker/10:1-events]
+tezivin+   52422  0.0  0.0 405284 15264 ?        Sl   20:36   0:00 /usr/lib/gvfsd-recent --spawner :1.47 /org/gtk/gvfs/exec_spaw/1
+tezivin+   52423  0.0  0.0 331424 15120 ?        Sl   20:36   0:00 /usr/lib/gvfsd-network --spawner :1.47 /org/gtk/gvfs/exec_spaw/2
+tezivin+   52710  2.5  2.3 1461738496 379020 ?   Sl   20:36   0:26 /home/tezivindh/Antigravity IDE/antigravity-ide
+tezivin+   52713  0.0  0.3 34127916 63028 ?      S    20:36   0:00 /home/tezivindh/Antigravity IDE/antigravity-ide --type=zygote --no-zygote-sandbox
+tezivin+   52714  0.0  0.3 34127904 61200 ?      S    20:36   0:00 /home/tezivindh/Antigravity IDE/antigravity-ide --type=zygote
+tezivin+   52716  0.0  0.0 34127928 14156 ?      S    20:36   0:00 /home/tezivindh/Antigravity IDE/antigravity-ide --type=zygote
+tezivin+   52762  5.3  2.4 34760180 399880 ?     Sl   20:36   0:56 /home/tezivindh/Antigravity IDE/antigravity-ide --type=zygote --no-zygote-sandbox
+tezivin+   52769  0.0  0.5 33950892 91316 ?      Sl   20:36   0:01 /proc/self/exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --render-node-override=/dev/dri/renderD129 --enable-crash-reporter=6d140779-2bf2-4b46-9187-0e5d8160c3b2,no_channel --user-data-dir=/home/tezivindh/.config/Antigravity IDE --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,10235289918176904977,5611622113237709031,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708989122997041
+tezivin+   52803 13.2  3.3 1463497540 536516 ?   Rl   20:36   2:20 /home/tezivindh/Antigravity IDE/antigravity-ide --type=zygote
+tezivin+   52864  0.3  1.5 2373944 245608 ?      Sl   20:36   0:03 /home/tezivindh/Antigravity IDE/resources/app/extensions/antigravity/bin/language_server_linux_x64 --csrf_token 4ea80c8d-bd1d-477b-b042-8e69247c63bc --extension_server_port 43381 --extension_server_csrf_token 1520d5b2-64f2-4bee-999e-0094d13e9f9a --app_data_dir antigravity-ide --subclient_type ide --cloud_code_endpoint https://cloudcode-pa.googleapis.com
+tezivin+   52885  0.0  0.7 1756608 127572 ?      Sl   20:36   0:00 npm exec chrome-devtools-mcp@latest --autoConnect --no-usage-statistics --no-performance-crux
+tezivin+   52913  0.6  0.8 1461392768 144544 ?   Sl   20:36   0:07 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --render-node-override=/dev/dri/renderD129 --enable-crash-reporter=6d140779-2bf2-4b46-9187-0e5d8160c3b2,no_channel --user-data-dir=/home/tezivindh/.config/Antigravity IDE --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,10235289918176904977,5611622113237709031,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708990997080739
+tezivin+   52959  0.0  1.0 1589576 167508 ?      Sl   20:36   0:00 chrome-devtools-mcp
+tezivin+   53042  0.1  0.8 1461409704 136700 ?   Sl   20:36   0:02 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --render-node-override=/dev/dri/renderD129 --enable-crash-reporter=6d140779-2bf2-4b46-9187-0e5d8160c3b2,no_channel --user-data-dir=/home/tezivindh/.config/Antigravity IDE --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,10235289918176904977,5611622113237709031,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708993808206286
+tezivin+   53152  0.0  0.4 33996476 76048 ?      Sl   20:36   0:00 /proc/self/exe --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --render-node-override=/dev/dri/renderD129 --enable-crash-reporter=6d140779-2bf2-4b46-9187-0e5d8160c3b2,no_channel --user-data-dir=/home/tezivindh/.config/Antigravity IDE --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,10235289918176904977,5611622113237709031,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708994745248135
+tezivin+   57205  0.1  0.8 1461409780 128664 ?   Sl   20:40   0:01 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --render-node-override=/dev/dri/renderD129 --enable-crash-reporter=6d140779-2bf2-4b46-9187-0e5d8160c3b2,no_channel --user-data-dir=/home/tezivindh/.config/Antigravity IDE --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,10235289918176904977,5611622113237709031,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190709001304541078
+tezivin+   57220  1.1  2.4 1461394504 392120 ?   Sl   20:40   0:10 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --render-node-override=/dev/dri/renderD129 --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --enable-crash-reporter=6d140779-2bf2-4b46-9187-0e5d8160c3b2,no_channel --user-data-dir=/home/tezivindh/.config/Antigravity IDE --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,10235289918176904977,5611622113237709031,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190709002241582927
+tezivin+   57324  0.0  0.0   9216  7680 pts/0    Ss+  20:40   0:00 /usr/bin/bash --init-file /home/tezivindh/Antigravity IDE/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+tezivin+   57343  0.0  1.0 2322788 166752 ?      Sl   20:40   0:00 /home/tezivindh/Antigravity IDE/resources/app/extensions/antigravity/bin/language_server_linux_x64 --enable_lsp --csrf_token fd772fa2-c0f5-4efa-aa77-b52f226138f9 --extension_server_port 36317 --extension_server_csrf_token 341d39ff-cf4c-444a-b03a-a0df1bd1078d --workspace_id file_home_tezivindh_Desktop_devops_t9 --cloud_code_endpoint https://daily-cloudcode-pa.googleapis.com --subclient_type ide --app_data_dir antigravity-ide --parent_pipe_path /tmp/server_9831dd579b79efb6
+tezivin+   57371  0.0  0.6 1739008 106984 ?      Sl   20:40   0:00 npm exec chrome-devtools-mcp@latest --autoConnect --no-usage-statistics --no-performance-crux
+tezivin+   57391  0.0  1.0 1589832 168464 ?      Sl   20:40   0:00 chrome-devtools-mcp
+root       57433  0.0  0.0      0     0 ?        I    20:40   0:00 [kworker/8:2-cgroup_bpf_destroy]
+tezivin+   57728  0.0  0.6 1459575524 104508 ?   Sl   20:40   0:00 /home/tezivindh/Antigravity IDE/antigravity-ide /home/tezivindh/Antigravity IDE/resources/app/extensions/markdown-language-features/dist/serverWorkerMain --node-ipc --clientProcessId=57220
+root       59061  0.0  0.0      0     0 ?        I    20:41   0:00 [kworker/2:0-inet_frag_wq]
+root       60552  0.0  0.0      0     0 ?        I    20:42   0:00 [kworker/5:0-events]
+root       60554  0.0  0.2 2130096 47484 ?       Ssl  20:42   0:00 /usr/bin/containerd
+root       60571  0.0  0.0      0     0 ?        I    20:42   0:00 [kworker/10:2-events]
+root       60585  0.0  0.5 2215788 85512 ?       Ssl  20:42   0:00 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root       60760  0.0  0.0      0     0 ?        I    20:42   0:00 [kworker/0:0-events]
+root       60788  0.0  0.0      0     0 ?        I    20:42   0:00 [kworker/1:2-events]
+root       61331  0.0  0.0      0     0 ?        I    20:43   0:00 [kworker/0:3-events]
+root       62558  0.0  0.0      0     0 ?        I    20:44   0:00 [kworker/3:2-events]
+root       64123  0.0  0.0      0     0 ?        I    20:45   0:00 [kworker/u48:2-kvfree_rcu_reclaim]
+root       65398  0.0  0.0      0     0 ?        I    20:47   0:00 [kworker/8:4-i915-unordered]
+root       66263  0.1  0.0      0     0 ?        I    20:48   0:00 [kworker/4:2-events]
+root       66437  0.0  0.0      0     0 ?        I    20:48   0:00 [kworker/6:1-i915-unordered]
+root       67641  0.0  0.0      0     0 ?        I    20:49   0:00 [kworker/9:1-cgroup_bpf_destroy]
+tezivin+   69174  0.0  0.5 2614996 86356 ?       Sl   20:51   0:00 /usr/lib/seafari/firefox-bin -contentproc -isForBrowser -prefsHandle 0:51345 -prefMapHandle 1:294578 -jsInitHandle 2:156236 -parentBuildID 20260727124451 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a1e7f8a9-dd0d-4a86-bcec-1e5c9b289924} -parentPid 2301 -crashHelperPid 2324 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/seafari/omni.ja -appomni /usr/lib/seafari/browser/omni.ja -appDir /usr/lib/seafari/browser 44 tab
+tezivin+   69180  0.0  0.5 2614996 86320 ?       Sl   20:51   0:00 /usr/lib/seafari/firefox-bin -contentproc -isForBrowser -prefsHandle 0:51345 -prefMapHandle 1:294578 -jsInitHandle 2:156236 -parentBuildID 20260727124451 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {be43bb84-540d-4b43-aaef-62df5c6b0ba8} -parentPid 2301 -crashHelperPid 2324 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/seafari/omni.ja -appomni /usr/lib/seafari/browser/omni.ja -appDir /usr/lib/seafari/browser 45 tab
+tezivin+   69278  0.0  0.5 2614996 86592 ?       Sl   20:51   0:00 /usr/lib/seafari/firefox-bin -contentproc -isForBrowser -prefsHandle 0:51345 -prefMapHandle 1:294578 -jsInitHandle 2:156236 -parentBuildID 20260727124451 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {ef61a620-b173-42a9-ac76-88e42701c573} -parentPid 2301 -crashHelperPid 2324 -crashHelper 6 -crashReporter 7 -greomni /usr/lib/seafari/omni.ja -appomni /usr/lib/seafari/browser/omni.ja -appDir /usr/lib/seafari/browser 46 tab
+root       69601  0.0  0.0      0     0 ?        I    20:51   0:00 [kworker/2:1-events]
+tezivin+   69702  0.0  0.5 1459575588 93384 ?    Sl   20:51   0:00 /home/tezivindh/Antigravity IDE/antigravity-ide /home/tezivindh/Antigravity IDE/resources/app/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=57220
+tezivin+   69703  0.0  0.6 413496 109072 ?       Sl   20:51   0:00 /home/tezivindh/.antigravity-ide/extensions/meta.pyrefly-1.2.0-linux-x64/bin/pyrefly lsp
+tezivin+   69741  0.0  0.0   9216  7736 pts/1    Ss+  20:51   0:00 /usr/bin/bash --init-file /home/tezivindh/Antigravity IDE/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       69994  0.0  0.0      0     0 ?        I    20:51   0:00 [kworker/5:2-i915-unordered]
+root       69996  0.0  0.0      0     0 ?        I    20:51   0:00 [kworker/10:0-i915-unordered]
+root       69999  0.0  0.0      0     0 ?        I    20:51   0:00 [kworker/5:3-events]
+root       70178  0.0  0.0      0     0 ?        I    20:51   0:00 [kworker/0:1-events]
+root       70222  0.3  0.0      0     0 ?        I    20:51   0:00 [kworker/7:2-i915-unordered]
+root       70628  0.0  0.0      0     0 ?        I    20:52   0:00 [kworker/1:0-events]
+root       71061  0.0  0.0      0     0 ?        I    20:52   0:00 [kworker/2:3]
+root       71075  0.0  0.0      0     0 ?        I    20:52   0:00 [kworker/11:1-cgroup_free]
+root       71588  0.0  0.0      0     0 ?        I    20:52   0:00 [kworker/8:0]
+root       71856  0.0  0.0      0     0 ?        I    20:52   0:00 [kworker/3:0]
+root       72431  0.0  0.0   9764  5524 ?        S    20:53   0:00 systemd-userwork: waiting...
+tezivin+   73120  3.3  0.8 1459901792 140980 ?   Sl   20:53   0:01 /home/tezivindh/Antigravity IDE/antigravity-ide --type=zygote
+root       73226  0.0  0.0   9764  5552 ?        S    20:53   0:00 systemd-userwork: waiting...
+root       73490  0.0  0.0   9764  5544 ?        S    20:54   0:00 systemd-userwork: waiting...
+tezivin+   73646  0.0  0.0   8032  5836 pts/2    Ss+  20:54   0:00 bash -c chmod +x session3-shell-scripting/system_info.sh mkdir -p session3-shell-scripting/assets cd session3-shell-scripting ./system_info.sh << 'EOF' Tezivindh DEVOPS-T9-001 audit_reports running_processes.log EOF
+tezivin+   73649  0.0  0.0   8032  5916 pts/2    S+   20:54   0:00 /bin/bash ./system_info.sh
+tezivin+   73658  0.0  0.0   9280  6116 pts/2    R+   20:54   0:00 ps aux
